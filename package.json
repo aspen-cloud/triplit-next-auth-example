@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@triplit/client": "workspace:^",
+    "@triplit/client": "^0.0.36",
     "@triplit/db": "workspace:^",
-    "@triplit/react": "workspace:^",
+    "@triplit/react": "^0.0.36",
     "@types/node": "20.4.10",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",

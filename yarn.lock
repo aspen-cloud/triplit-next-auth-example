@@ -202,18 +202,32 @@
   dependencies:
     tslib "^2.4.0"
 
-"@triplit/client@^0.0.35", "@triplit/client@workspace:^":
-  version "0.0.35"
-  resolved "https://registry.yarnpkg.com/@triplit/client/-/client-0.0.35.tgz#e5b66ca46553eb0c7849d1cea0adff890b95123b"
-  integrity sha512-QMBkWadW5Ptbg6rpDxfvy+PBuc1AP0RAgpwQyw2pe5He+9nxQP6iB1EM3TZDP6diQifevwXT0HqL46Xbh/4tWQ==
+"@triplit/client@^0.0.36":
+  version "0.0.36"
+  resolved "https://registry.yarnpkg.com/@triplit/client/-/client-0.0.36.tgz#e1fa85ce4490acb875c644b43e98f12770882774"
+  integrity sha512-DjAHcUYV3W0nHpJqBci6PYftxlAt15KYIh47o32+Z0rI/T+roxp2Co8SkH8Lw1GRoDpED3G7vafKWnPMyqx+cQ==
   dependencies:
-    "@triplit/db" "^0.0.35"
+    "@triplit/db" "^0.0.36"
     node-fetch "^3.3.1"
     prettier "^2.8.8"
     rxjs "^7.8.1"
     yargs "^17.7.2"
 
-"@triplit/db@^0.0.35", "@triplit/db@workspace:^":
+"@triplit/db@^0.0.36":
+  version "0.0.36"
+  resolved "https://registry.yarnpkg.com/@triplit/db/-/db-0.0.36.tgz#36b9707312e0363576f018bf53dea7a8bb8be9b0"
+  integrity sha512-bSxSUrs/PwqOt9BWwAoH+AGyRm4Wb7pbb7/I1MBzhnavSNwG3SXdcXW24yE+uIt2RfdALyvvbXNGgDIBsqoz/g==
+  dependencies:
+    "@sinclair/typebox" "^0.27.4"
+    idb "^7.1.1"
+    nanoid "^3.0.0"
+    pino "^8.11.0"
+    sorted-btree "^1.8.1"
+    tinybench "^2.5.0"
+    tuple-database "^2.2.0"
+    zod "^3.20.6"
+
+"@triplit/db@workspace:^":
   version "0.0.35"
   resolved "https://registry.yarnpkg.com/@triplit/db/-/db-0.0.35.tgz#3891592ca69692db99b74224c818b7c5a59723af"
   integrity sha512-GC5sxmRrQ4RwbURUmzzpM3alJei1TIJ7QYuDoQhfOJH1dvRAxjmss/LyJ6zBg1FBnLIY5jmibW7Vlbn5YAiFkw==
@@ -227,12 +241,12 @@
     tuple-database "^2.2.0"
     zod "^3.20.6"
 
-"@triplit/react@workspace:^":
-  version "0.0.35"
-  resolved "https://registry.yarnpkg.com/@triplit/react/-/react-0.0.35.tgz#78b566961d84978146d7a612215742384005bd68"
-  integrity sha512-Y/zrt1nBqsJjpsfVCZp6Q4hlLo/NXisiqA7iWLmrXdWBAQp6RnNopknRNwb6lBK2DngqEx6NrgXIPCgqmYmbKA==
+"@triplit/react@^0.0.36":
+  version "0.0.36"
+  resolved "https://registry.yarnpkg.com/@triplit/react/-/react-0.0.36.tgz#38d52cef679dfbc3fdc928c6891713dd6bff3900"
+  integrity sha512-E5V/3A2nu7x+UApBUyhjhXI1HgeLZZleZEEzbbdDooq1zOTGCVOwNvBfXfwyphQH8qpuwkRBvjahpL4i8Qz1Fw==
   dependencies:
-    "@triplit/client" "^0.0.35"
+    "@triplit/client" "^0.0.36"
 
 "@types/eslint@^8":
   version "8.44.2"
