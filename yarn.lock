@@ -227,20 +227,6 @@
     tuple-database "^2.2.0"
     zod "^3.20.6"
 
-"@triplit/db@workspace:^":
-  version "0.0.35"
-  resolved "https://registry.yarnpkg.com/@triplit/db/-/db-0.0.35.tgz#3891592ca69692db99b74224c818b7c5a59723af"
-  integrity sha512-GC5sxmRrQ4RwbURUmzzpM3alJei1TIJ7QYuDoQhfOJH1dvRAxjmss/LyJ6zBg1FBnLIY5jmibW7Vlbn5YAiFkw==
-  dependencies:
-    "@sinclair/typebox" "^0.27.4"
-    idb "^7.1.1"
-    nanoid "^3.0.0"
-    pino "^8.11.0"
-    sorted-btree "^1.8.1"
-    tinybench "^2.5.0"
-    tuple-database "^2.2.0"
-    zod "^3.20.6"
-
 "@triplit/react@^0.0.36":
   version "0.0.36"
   resolved "https://registry.yarnpkg.com/@triplit/react/-/react-0.0.36.tgz#38d52cef679dfbc3fdc928c6891713dd6bff3900"
