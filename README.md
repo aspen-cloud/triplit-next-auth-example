@@ -12,6 +12,8 @@ Create a new project in your [Triplit Dashboard](https://www.triplit.dev/dashboa
 
 Create a file named `.env.local` and copy the variables from `env.example`, filling in each with info from your project details found in the dashboard.
 
+Ensure the "External JWT Secret" in the Triplit Dashboard matches what you set as `NEXTAUTH_SECRET` in your `.env` file.
+
 ### Run the schema migrations
 
 ```bash
