@@ -1,0 +1,26 @@
+{
+  "up": [
+    [
+      "create_collection",
+      {
+        "name": "answers",
+        "attributes": {
+          "questionId": { "type": "string" },
+          "userId": { "type": "string" },
+          "pick": { "type": "number" }
+        },
+        "rules": {
+          "read": [
+            {
+              "description": "Allow users to read answers",
+              "filter": [["userId", "=", "$SESSION_USER_ID"]]
+            }
+          ]
+        }
+      }
+    ]
+  ],
+  "down": [],
+  "version": 1691946305021,
+  "parent": 0
+}

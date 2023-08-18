@@ -1,0 +1,72 @@
+[
+  {
+    "id": "skywalker-father",
+    "prompt": "Who is Luke Skywalker's father?",
+    "answers": ["Obi-Wan Kenobi", "Yoda", "Anakin Skywalker", "Han Solo"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "solo-ship",
+    "prompt": "What is the name of Han Solo's ship?",
+    "answers": ["Death Star", "Slave 1", "Millennium Falcon", "Star Destroyer"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "jedi-planet",
+    "prompt": "Which planet is known as the home of the Jedi?",
+    "answers": ["Coruscant", "Naboo", "Tatooine", "Dagobah"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "chewbacca",
+    "prompt": "What species is Chewbacca?",
+    "answers": ["Wookiee", "Ewok", "Rodian", "Hutt"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "leia-origin",
+    "prompt": "Who played Princess Leia in the original trilogy?",
+    "answers": [
+      "Natalie Portman",
+      "Daisy Ridley",
+      "Carrie Fisher",
+      "Felicity Jones"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "jedi-weapon",
+    "prompt": "What is the name of the weapon used by Jedi and Sith?",
+    "answers": ["Blaster", "Phaser", "Lightsaber", "Wand"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "do-or-do-not",
+    "prompt": "Which character famously says 'Do or do not, there is no try'?",
+    "answers": ["Obi-Wan Kenobi", "Yoda", "Mace Windu", "Darth Vader"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "windi-saber",
+    "prompt": "What color is Mace Windu's lightsaber?",
+    "answers": ["Green", "Blue", "Purple", "Red"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "galactic-emperor",
+    "prompt": "Who is the Emperor of the Galactic Empire?",
+    "answers": [
+      "Darth Vader",
+      "Kylo Ren",
+      "Emperor Palpatine",
+      "Grand Moff Tarkin"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "droid-language",
+    "prompt": "What is the primary language of the droids, R2-D2 and BB-8?",
+    "answers": ["Shyriiwook", "Huttese", "Aurebesh", "Binary"],
+    "correctAnswer": 3
+  }
+]
